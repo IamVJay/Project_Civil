@@ -12,10 +12,10 @@ class Concrete():
         Pickle & JSON file importing
         """
 
-        with open('artifacts/project_data.json','r') as file:
+        with open('C:/Vijay/Project/Compressive strength predection/artifacts/project_data.json','r') as file:
             self.project_data = json.load(file)  
                                         
-        with open("artifacts/model.pkl",'rb') as file:
+        with open("C:/Vijay/Project/Compressive strength predection/artifacts/model.pkl",'rb') as file:
             self.model = pickle.load(file)
 
 
